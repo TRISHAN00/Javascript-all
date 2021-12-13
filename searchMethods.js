@@ -5,4 +5,14 @@ const str = "I love my country too much."
 // lastIndexOf
 const strLastIndexOf = "I am something telling something";
 const resultLstIndexOf = strLastIndexOf.lastIndexOf('something', 13)
-console.log(resultLstIndexOf);
+
+// search method
+const searchMethod = "I am trying to searching to you.";
+const searchResult = searchMethod.includes('searchings')
+
+if( searchResult) {
+    return console.log('I have found');
+}
+else {
+    console.log('not found');
+}
