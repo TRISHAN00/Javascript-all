@@ -27,7 +27,17 @@ const fruits = "Apple, Banana, Kiwi";
 
 
 
-// replace method
+// replace method replace method never change the main string and also replace the first match. Should you case sensitive.
 const language = 'I love PHP'
+// console.log(language);
 const output = language.replace('PHP', 'JavaScript Must')
 // console.log(output);
+
+
+// converting to upper and lowercase
+const str = 'to upper case';
+const upperCase = str.toUpperCase()
+// console.log(upperCase);
+
+const lowerStr = 'TO LOWER CASE';
+// console.log(lowerStr.toLowerCase());
