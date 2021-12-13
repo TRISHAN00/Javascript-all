@@ -48,9 +48,15 @@ const lowerStr = 'TO LOWER CASE';
 // console.log(a);
 
 // trim method
-const fullName = 'Trishan     Sala';
+const fullName = 'Trishan     Saha';
 const o = fullName.charAt(3)
-console.log(o);
 // console.log(fullName.trim());
 
 // charAt
+const charCode = fullName.charCodeAt()
+// console.log(charCode);
+
+// make string to an array
+const strSplit = 'Hello Bangladesh';
+const resultSplit = strSplit.split(' ')
+console.log(resultSplit);
