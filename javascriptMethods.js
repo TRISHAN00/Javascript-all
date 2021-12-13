@@ -41,3 +41,16 @@ const upperCase = str.toUpperCase()
 
 const lowerStr = 'TO LOWER CASE';
 // console.log(lowerStr.toLowerCase());
+
+// let a = 'Bangladesh';
+// console.log(a);
+// a = 'English'
+// console.log(a);
+
+// trim method
+const fullName = 'Trishan     Sala';
+const o = fullName.charAt(3)
+console.log(o);
+// console.log(fullName.trim());
+
+// charAt
