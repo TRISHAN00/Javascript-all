@@ -24,3 +24,14 @@ randomSort.sort((a, b) => {
 // How to find last item of array
 const players1 = ['Banana', 'Apple', 'Juice', 'Orange', "Kiwi"];
 console.log(players1[players1.length - 1]);
+
+// sort of object
+const brand = [
+    {type : "Volvo", year : 1996},
+    {type : "Hino", year : 1888},
+    {type : "Arafa", year : 2000}
+];
+
+brand.sort((a, b) => a.year - b.year)
+
+console.log(brand.map(item  => console.log(item.year)));
