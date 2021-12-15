@@ -23,7 +23,7 @@ randomSort.sort((a, b) => {
 
 // How to find last item of array
 const players1 = ['Banana', 'Apple', 'Juice', 'Orange', "Kiwi"];
-console.log(players1[players1.length - 1]);
+
 
 // sort of object
 const brand = [
@@ -32,6 +32,12 @@ const brand = [
     {type : "Arafa", year : 2000}
 ];
 
-brand.sort((a, b) => a.year - b.year)
+brand.sort((a, b) => {
+    let x = a.type.toLowerCase();
+    let y = b.type.toLowerCase()
+    if (x < y) {return - 1}
+    if( x > y) {return 1}
+    return 0
+})
 
-console.log(brand.map(item  => console.log(item.year)));
+brand.sort((a, b) => a.type - b.type)
