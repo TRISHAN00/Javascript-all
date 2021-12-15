@@ -9,5 +9,18 @@ const number = [40, 100, 20, 30];
 number.sort((a, b) => {
     return a - b
 });
-console.log(number);
 
+
+
+// sorting reverse
+const numberReverse = [40, 100, 20, 30];
+numberReverse.sort((a, b) => {
+    return b - a
+})
+
+
+// randomly sort
+const randomSort = [40, 100, 20, 30];
+randomSort.sort((a, b) => {
+    return 0.5 - Math.random();
+});
