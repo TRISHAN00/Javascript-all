@@ -5,10 +5,6 @@ const newNumbers = numbers.map((value) => {
     return value * 2
 })
 
-console.log(newNumbers);
-console.log(numbers);
-
-
 // numbers.forEach((value, index, array) => {
 //     console.log(value);
 //     console.log(index);
@@ -17,3 +13,13 @@ console.log(numbers);
 
 
 // map functiona
+
+
+// filter functiona
+const filterNumber = [45, 4, 9, 10, 7];
+
+const newFilter = filterNumber.filter((value) => {
+    return value > 9;
+})
+
+console.log(newFilter);
