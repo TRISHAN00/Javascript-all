@@ -22,4 +22,11 @@ const newFilter = filterNumber.filter((value) => {
     return value > 9;
 })
 
-console.log(newFilter);
+// reduce function
+const reduceNumber = [45, 4, 9, 10, 7];
+
+const newReduceNumber = reduceNumber.reduce((total, value, index, array,) => {
+    return total + value
+}, 10)
+
+console.log(newReduceNumber);
