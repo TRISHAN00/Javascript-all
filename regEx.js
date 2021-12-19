@@ -18,3 +18,8 @@ const findBangladesh = text.replace(/bangladesh/i, "Australia"); //with replace
 const globalText = "Samsung powerd by samsung";
 const globalResult = globalText.replace(/samsung/ig, "Itel")
 console.log(globalResult);
+
+
+
+// test
+console.log(/w/.test('Hello'));
