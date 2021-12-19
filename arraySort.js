@@ -21,6 +21,7 @@ randomSort.sort((a, b) => {
     return 0.5 - Math.random();
 });
 
+
 // How to find last item of array
 const players1 = ['Banana', 'Apple', 'Juice', 'Orange', "Kiwi"];
 
