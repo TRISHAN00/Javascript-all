@@ -33,7 +33,10 @@ const countVowel = (sentence) => {
   return count;
 };
 
-const duplicateNumber = [1, 1, 2, 3, 4, 5, 4];
-duplicateNumber.filter((value, index, array) => {
-    console.log(value, index, array);
-});
+// find duplicate value from array
+const duplicateNumbers = [10, 30, 10, 5, 6, 33, 44, 33, 6, 44]
+
+const finalNumbers = duplicateNumbers.filter((value, index, array) => {
+    return array.indexOf(value) !== index
+})
+console.log(finalNumbers);

@@ -1,6 +1,6 @@
 // indexOf search method
 const str = "I love my country too much."
-// console.log(str.indexOf('l'));
+console.log(str.indexOf('l'));
 
 // lastIndexOf
 const strLastIndexOf = "I am something telling something";
@@ -33,4 +33,4 @@ cars[0] = "Ford"
 // remove last item of fruit
 const fruits = ["Banana", "Orange", "Apple", "Kiwi"];
 fruits.splice(0, 2)
-console.log(fruits);
+// console.log(fruits);
