@@ -39,4 +39,4 @@ const duplicateNumbers = [10, 30, 10, 5, 6, 33, 44, 33, 6, 44]
 const finalNumbers = duplicateNumbers.filter((value, index, array) => {
     return array.indexOf(value) !== index
 })
-console.log(finalNumbers);
+

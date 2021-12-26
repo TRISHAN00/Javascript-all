@@ -26,6 +26,7 @@ randomSort.sort((a, b) => {
 const players1 = ['Banana', 'Apple', 'Juice', 'Orange', "Kiwi"];
 
 
+
 // sort of object
 const brand = [
     {type : "Volvo", year : 1996},
@@ -42,3 +43,4 @@ brand.sort((a, b) => {
 })
 
 brand.sort((a, b) => a.type - b.type)
+
