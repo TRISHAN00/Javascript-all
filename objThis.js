@@ -29,7 +29,7 @@ const person = {
   },
 
   fullDetailsOfStudents: function () {
-    return `The name of our student is ${this.fullName()} and his total marks is ${this.totalMarks()}.`;
+    return `The name of our student is ${this.fullName()} and total marks is ${this.totalMarks()}.`;
   },
 };
 
