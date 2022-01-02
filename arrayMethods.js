@@ -9,6 +9,8 @@
 // }
 const fruits = ['Banana', 'Orange', 'Apple', 'Mango']
 
+
+
 // fruits.forEach((item) => {
 //     const ul = document.querySelector('#ul')
 //     const li = document.createElement('li')

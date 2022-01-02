@@ -3,11 +3,7 @@ const person = {
     lastName : 'Saha',
     country : '',
     language : '',
-    set bang(cont) {
-        this.country = cont;
+    get fullName() {
+        return this.firstName + ' ' + this.lastName
     }
 }
-
-person.bang = 'Bangladesh'
-
-console.log(person);
