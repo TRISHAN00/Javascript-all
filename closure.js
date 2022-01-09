@@ -1,12 +1,12 @@
 function temporary() {
-    let counter = 0;
+  let count = 0;
 
-    return function () {
-        counter = counter + 1
-    }
+  return function () {
+    count = count + 1;
+    console.log(count);
+  };
+  return count;
+}
 
-};
-
-const add = temporary();
-console.dir(add);
-add()
+temporary();
+console.log(count);
