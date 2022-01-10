@@ -54,7 +54,7 @@
 
 // callback with payment system.
 const paymentSuccess = true;
-const marks = 80;
+const marks = 70;
 
 const enroll = (callback) => {
     console.log('Course enrollment is in progress.');
@@ -90,8 +90,6 @@ const getCertificate = () => {
     }, 1000);
 }
 
-enroll()
-
-progress()
-
-getCertificate()
+enroll(() => {
+    progress(getCertificate)
+})
