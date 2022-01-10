@@ -3,12 +3,12 @@
 //     return console.log('second func');
 // }
 
-// const myFristFunc = () => {
-//     // return console.log('fistFunchtion');
+// const myFunc = () => {
+    console.log('first');
 // }
 
 
-// // myFristFunc()
+// // myFunc()
 // // mySecondFunc()
 
 // // make function to follow sequence and these are the best practice.
