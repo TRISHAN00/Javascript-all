@@ -44,15 +44,14 @@ const getCertificate = () => {
 };
 
 async function course() {
-    try {
-        await enroll()
-    await progress()
-    const message = await getCertificate()
+  try {
+    await enroll();
+    await progress();
+    const message = await getCertificate();
     console.log(message);
-    }
-    catch(err) {
-        console.log(err);
-    }
+  } catch (err) {
+    console.log(err);
+  }
 }
 
-course()
+course();
