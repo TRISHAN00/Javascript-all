@@ -35,9 +35,9 @@ const progress = () => {
 const getCertificate = () => {
     console.log("Preparing your certificate.");
 
-    const promise = new Promise(() => {
+    const promise = new Promise((resolve) => {
         setTimeout(() => {
-            console.log("Congrats you got the certificate.");
+            resolve("Congrats you got the certificate.");
         }, 1000);
     }) 
     return promise;
@@ -46,6 +46,9 @@ const getCertificate = () => {
 enroll()
     .then(progress)
     .then(getCertificate)
+    .then((value) => {
+        console.log(value);
+    })
     .catch((err) => {
         console.log(err);
     })

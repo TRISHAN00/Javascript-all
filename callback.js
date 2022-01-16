@@ -72,13 +72,7 @@ const enroll = (callback) => {
 const progress = (callback) => {
     console.log('Course on progress..');
 
-    setTimeout(() => {
-        if(marks >= 80) {
-            callback();
-        } else {
-            console.log("Your could not get enough marks to get the certificate.");
-        }
-    }, 3000);
+    
 
 }
 
