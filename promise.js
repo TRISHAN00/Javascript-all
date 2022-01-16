@@ -2,13 +2,13 @@ const taskComplete = false;
 
 const promise = new Promise((resolved, reject) => {
   setTimeout(() => {
-    if(taskComplete) {
+    if (taskComplete) {
       resolved("Task Completed True");
     } else {
-      reject("Task Rejected")
+      reject("Task Rejected");
     }
   }, 2000);
-})
+});
 
 promise
   .then((value) => {
@@ -16,4 +16,4 @@ promise
   })
   .catch((err) => {
     console.log(err);
-  })
+  });
